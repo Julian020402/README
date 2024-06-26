@@ -27,3 +27,9 @@ To set up the Poisonous Plant Identification System locally, follow these steps:
 ```bash
 git clone https://github.com/yourusername/poisonous-plant-identification.git
 cd poisonous-plant-identification
+
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+pip install -r requirements.txt
+
